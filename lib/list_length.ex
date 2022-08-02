@@ -1,5 +1,5 @@
 defmodule ListLength do
-  def call() do
-    #TO DO
-  end
+  def call(list), do: sum(list)
+
+  defp sum(list), do: length(list)
 end
